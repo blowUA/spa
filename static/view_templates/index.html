@@ -1,0 +1,96 @@
+<div class="jumbotron paral paralsec ">
+    <h1>{{pageHeader.header}}</h1>
+    <p>{{pageHeader.message}}
+        <a href="{{pageHeader.urltext}}">{{pageHeader.project}}</a>
+    </p>
+ </div>
+
+<div class="container-fluid m-0 justify-text-center">
+<h2>Equipment Catalogue</h2>
+        <div class="row">
+            <div class="container-fluid  col-xs-6 col-lg-4" ng-repeat="item in pageItems | filter:{page:'page/1'}">
+                <div class="container-fluid justify-text-center">
+                    
+                       
+                        <h2>{{item.name}}</h2>
+                        
+                        <p>{{item.info}}
+                        </p>
+                        <img src="{{item.image}}" alt="{{item.name}}">
+                       
+                        <p><button class="btn btn-lg btn-outline-warning"><a class="btn btn-outline-dangerous" href="#" role="button">{{item.button}}</a></button></p>
+                    
+                </div><!--/.col-xs-6.col-lg-4-->    
+            </div>
+</div>
+<!-- Second Parallax Section -->
+<div class="container col-12">
+  
+<section>
+    <div class="image" data-type="background" data-speed="2"></div>
+    <div class="row">
+    <div class="stuff col-6" data-type="content"><h2>Best material for grow tent</h2><p>Awesome growing in your perfect GROWBOX with our special reflective cover! </p></div>
+    <div class="view overlay hm-black-strong col-6">
+                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img (1).jpg" class="img-fluid" alt="sample image">
+                        <div class="mask flex-center">
+                            <p class="white-text">Strong overlay</p>
+                        </div>
+                    </div>
+            Smooth decision for one - exelent look each other</p></div>
+            </div>
+  </section>
+
+  <section>
+    <div class="image" data-type="background" data-speed="6"></div>
+  <div class="stuff" data-type="content"><h1>PERSONAL WORK</h1><p>Smooth decision for one - exelent look each other</p></div>
+  </section>
+<div class="container">
+  <div class="col-6 col-lg-4 mb-3">
+    <div class="card card-info bg-dark " style="height:100%">
+      <img class="card-img-top" src="../../static/img/7.jpg" alt="" />
+      <div class="card-body text-white">
+        <div class="row vertical-align-center">
+          <div class="col order-1 text-left">
+            <strong>{{item.name}}</strong>
+          </div>
+          <div class="col order-12 text-right">
+            <span class="small">Blossom Period<br>+35%</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 long-desc small">
+            Experience WorldHostingDays breakthrough event in Las Vegas September 11th and 12th. Join digital technology and industry leaders to discuss and share ideas regarding the future of the internet. 
+            <p class="text-right">Event Website</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+<div class="container-fluid">
+  <div class="col-6 col-lg-4 mb-3">
+    <div class="card card-info bg-dark " style="height:100%">
+      <img class="card-img-top" src="https://hostway.com/wp-content/uploads/aws-reinvent.jpg" alt="" />
+      <div class="card-body text-white">
+        <div class="row vertical-align-center">
+          <div class="col order-1 text-left">
+            <strong>Bud&Bloom</strong>
+          </div>
+          <div class="col order-12 text-right">
+            <span class="small">Blossom Period<br>+35%</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 long-desc small">
+            Experience WorldHostingDays breakthrough event in Las Vegas September 11th and 12th. Join digital technology and industry leaders to discuss and share ideas regarding the future of the internet. 
+            <p class="text-right">Event Website</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>

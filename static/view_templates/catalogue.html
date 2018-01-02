@@ -1,0 +1,233 @@
+<div class="col-12 p-0">
+
+<div class="image" data-type="background" data-speed="6"></div>
+<div class="col-12  text-justify ">
+            <div class="row justify-content-center background-dark">
+                <div class="col-12 col-md-10 col-lg-8 col-xl-8 p-2">
+                    <p>
+                        <button class="btn btn-outline-warning w-50 float-left background-dark" type="button"  data-toggle="collapse" data-target="#collapseExample" aria-expanded="true" aria-controls="collapseExample">
+                            Grow equipment
+                        </button>
+                        <button class="btn btn-outline-warning w-50" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+                            Fertilizers
+                        </button>
+                    </p>
+                    <div class="collapse " id="collapseExample">
+                        <div class="card card-body">
+                            <h2>Indoor</h2>
+                            <button class="btn btn-outline-warning mb-2 mt-2" type="button" data-toggle="collapse" data-target="#Growbox" aria-expanded="false" aria-controls="Growbox">
+                                Growbox
+                            </button>
+                            <div class="collapse" id="Growbox">
+                                <div class="card card-body">
+                                    <div class="contact-info" ng-repeat="item in pageItems " ng-if="item.button == 'Growbox' ">
+                                        <h4 class="card-title">{{item.name}}</h4>
+                                        <p class="card-text">
+                                            {{item.info}}
+                                            <a class="btn btn-outline-warning mb-2 mt-2 float-right " href="{{item.urltext}}">перейти в магазин</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <button class="btn btn-outline-warning mb-2 mt-2" type="button" data-toggle="collapse" data-target="#LED-panels" aria-expanded="false" aria-controls="LED-panels">
+                                LED-panels
+                            </button>
+                            <div class="collapse" id="LED-panels">
+                                <div class="card card-body">
+                                    <div class="contact-info" ng-repeat="item in pageItems " ng-if="item.button == 'LED' ">
+                                        <h4 class="card-title">{{item.name}}</h4>
+                                        <p class="card-text">
+                                            {{item.info}}
+                                            <a class="btn btn-outline-warning mb-2 mt-2 float-right " href="{{item.urltext}}">перейти в магазин</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn btn-outline-warning mb-2 mt-2" type="button" data-toggle="collapse" data-target="#Hydroponic" aria-expanded="false" aria-controls="Hydroponic">
+                                Hydroponic system
+                            </button>
+                            <div class="collapse" id="Hydroponic">
+                                <div class="card card-body">
+                                    <div class="contact-info" ng-repeat="item in pageItems " ng-if="item.button == 'Hydroponic' ">
+                                        <h4 class="card-title">{{item.name}}</h4>
+                                        <p class="card-text">
+                                            {{item.info}}
+                                            <a class="btn btn-outline-warning mb-2 mt-2 float-right " href="{{item.urltext}}">перейти в магазин</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn btn-outline-warning mb-2 mt-2" type="button" data-toggle="collapse" data-target="#Aeroponic" aria-expanded="false" aria-controls="Aeroponic">
+                                Aeroponic system
+                            </button>
+                            <div class="collapse" id="Aeroponic">
+                                <div class="card card-body">
+                                    <div class="contact-info" ng-repeat="item in pageItems " ng-if="item.button == 'Aeroponic' ">
+                                        <h4 class="card-title">{{item.name}}</h4>
+                                        <p class="card-text">
+                                            {{item.info}}
+                                            <a class="btn btn-outline-warning mb-2 mt-2 float-right " href="{{item.urltext}}">перейти в магазин</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn btn-outline-warning mb-2 mt-2" type="button" data-toggle="collapse" data-target="#Terra" aria-expanded="false" aria-controls="Terra">
+                                Terra Autopot
+                            </button>
+                            <div class="collapse" id="Terra">
+                                <div class="card card-body">
+                                    <div class="contact-info" ng-repeat="item in pageItems " ng-if="item.button == 'Terra' ">
+                                        <h4 class="card-title">{{item.name}}</h4>
+                                        <p class="card-text">
+                                            {{item.info}}
+                                            <a class="btn btn-outline-warning mb-2 mt-2 float-right " href="{{item.urltext}}">перейти в магазин</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn btn-outline-warning mb-2 mt-2" type="button" data-toggle="collapse" data-target="#Ventilation" aria-expanded="false" aria-controls="Ventilation">
+                                Ventilation & Filters
+                            </button>
+                            <div class="collapse" id="Ventilation">
+                                <div class="card card-body">
+                                    <div class="contact-info" ng-repeat="item in pageItems " ng-if="item.button == 'Ventilation' ">
+                                        <h4 class="card-title">{{item.name}}</h4>
+                                        <p class="card-text">
+                                            {{item.info}}
+                                            <a class="btn btn-outline-warning mb-2 mt-2 float-right " href="{{item.urltext}}">перейти в магазин</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <h2>Extra technologies</h2>
+                            <button class="btn btn-outline-warning mb-2 mt-2" type="button" data-toggle="collapse" data-target="#CO2" aria-expanded="false" aria-controls="CO2">
+                                CO2 - rator
+                            </button>
+                            <div class="collapse" id="CO2">
+                                <div class="card card-body">
+                                    <div class="contact-info" ng-repeat="item in pageItems " ng-if="item.button == 'CO2' ">
+                                        <h4 class="card-title">{{item.name}}</h4>
+                                        <p class="card-text">
+                                            {{item.info}}
+                                            <a class="btn btn-outline-warning mb-2 mt-2 float-right " href="{{item.urltext}}">перейти в магазин</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn btn-outline-warning mb-2 mt-2" type="button" data-toggle="collapse" data-target="#Packs" aria-expanded="false" aria-controls="Packs">
+                                Packs and vials
+                            </button>
+                            <div class="collapse" id="Packs">
+                                <div class="card card-body">
+                                    <div class="contact-info" ng-repeat="item in pageItems " ng-if="item.button == 'Packs' ">
+                                        <h4 class="card-title">{{item.name}}</h4>
+                                        <p class="card-text">
+                                            {{item.info}}
+                                            <a class="btn btn-outline-warning mb-2 mt-2 float-right " href="{{item.urltext}}">перейти в магазин</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn btn-outline-warning mb-2 mt-2" type="button" data-toggle="collapse" data-target="#Trimmer" aria-expanded="false" aria-controls="Trimmer">
+                                Trimmer
+                            </button>
+                            <div class="collapse" id="Trimmer">
+                                <div class="card card-body">
+                                    <div class="contact-info" ng-repeat="item in pageItems " ng-if="item.button == 'Trimmer' ">
+                                        <h4 class="card-title">{{item.name}}</h4>
+                                        <p class="card-text">
+                                            {{item.info}}
+                                            <a class="btn btn-outline-warning mb-2 mt-2 float-right " href="{{item.urltext}}">перейти в магазин</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <h2> Souvenires</h2>
+                            <button class="btn btn-outline-warning mb-2 mt-2" type="button" data-toggle="collapse" data-target="#Pipes" aria-expanded="false" aria-controls="Pipes">
+                                Pipes & Bongs
+                            </button>
+                            <div class="collapse" id="Pipes">
+                                <div class="card card-body">
+                                    <div class="contact-info" ng-repeat="item in pageItems " ng-if="item.button == 'Pipes' ">
+                                        <h4 class="card-title">{{item.name}}</h4>
+                                        <p class="card-text">
+                                            {{item.info}}
+                                            <a class="btn btn-outline-warning mb-2 mt-2 float-right " href="{{item.urltext}}">перейти в магазин</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn btn-outline-warning mb-2 mt-2" type="button" data-toggle="collapse" data-target="#Vapostyle" aria-expanded="false" aria-controls="Vapostyle">
+                                Vapostyle
+                            </button>
+                            <div class="collapse" id="Vapostyle">
+                                <div class="card card-body">
+                                    <div class="contact-info" ng-repeat="item in pageItems " ng-if="item.button == 'Vapostyle' ">
+                                        <h4 class="card-title">{{item.name}}</h4>
+                                        <p class="card-text">
+                                            {{item.info}}
+                                            <a class="btn btn-outline-warning mb-2 mt-2 float-right " href="{{item.urltext}}">перейти в магазин</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="collapse" id="collapseExample2">
+                        <div class="card card-body">
+                            <h2>Fertilizers</h2>
+                            <button class="btn btn-outline-warning mb-2 mt-2" type="button" data-toggle="collapse" data-target="#Vega" aria-expanded="false" aria-controls="Vega">
+                                Vega
+                            </button>
+                            <div class="collapse" id="Vega">
+                                <div class="card card-body">
+                                    <div class="contact-info" ng-repeat="item in pageItems " ng-if="item.button == 'Vega' ">
+                                        <h4 class="card-title">{{item.name}}</h4>
+                                        <p class="card-text">
+                                            {{item.info}}
+                                            <a class="btn btn-outline-warning mb-2 mt-2 float-right " href="{{item.urltext}}">перейти в магазин</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn btn-outline-warning mb-2 mt-2" type="button" data-toggle="collapse" data-target="#Bloom" aria-expanded="false" aria-controls="Bloom">
+                                Bloom
+                            </button>
+                            <div class="collapse" id="Bloom">
+                                <div class="card card-body">
+                                    <div class="contact-info" ng-repeat="item in pageItems " ng-if="item.button == 'Bloom' ">
+                                        <h4 class="card-title">{{item.name}}</h4>
+                                        <p class="card-text">
+                                            {{item.info}}
+                                            <a class="btn btn-outline-warning mb-2 mt-2 float-right " href="{{item.urltext}}">перейти в магазин</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn btn-outline-warning mb-2 mt-2" type="button" data-toggle="collapse" data-target="#Insecticons" aria-expanded="false" aria-controls="Insecticons">
+                                Insecticons
+                            </button>
+                            <div class="collapse" id="Insecticons">
+                                <div class="card card-body">
+                                    <div class="contact-info" ng-repeat="item in pageItems " ng-if="item.button == 'Insecticons' ">
+                                        <h4 class="card-title">{{item.name}}</h4>
+                                        <p class="card-text">
+                                            {{item.info}}
+                                            <a class="btn btn-outline-warning mb-2 mt-2 float-right " href="{{item.urltext}}">перейти в магазин</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn btn-outline-warning mb-2 mt-2" type="button" data-toggle="collapse" data-target="#Vit" aria-expanded="false" aria-controls="Vit">
+                                Vit & Min
+                            </button>
+                            <div class="collapse" id="Vit">
+                                <div class="card card-body">
+                                    <div class="contact-info" ng-repeat="item in pageItems " ng-if="item.button == 'Vit' ">
+                                        <h4 class="card-title">{{item.name}}</h4>
+                                        <p class="card-text">
+                                            {{item.info}}
+                                            <a class="btn btn-outline-warning mb-2 mt-2 float-right " href="{{item.urltext}}">перейти в магазин</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   
+</div>
+
+        <div class="col-12  text-justify ">         </div>
+                    </div>
+                </div>
+            </div>
+        </div>

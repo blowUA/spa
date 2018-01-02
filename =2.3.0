@@ -1,0 +1,25 @@
+
+> node-sass@4.7.2 install /home/ig/spa/jah/node_modules/node-sass
+> node scripts/install.js
+
+Cached binary found at /home/ig/.npm/node-sass/4.7.2/linux-x64-57_binding.node
+
+> node-sass@4.7.2 postinstall /home/ig/spa/jah/node_modules/node-sass
+> node scripts/build.js
+
+Binary found at /home/ig/spa/jah/node_modules/node-sass/vendor/linux-x64-57/binding.node
+Testing binary
+Binary is fine
++ bootstrap@4.0.0-beta.3
++ node-sass@4.7.2
++ ngx-bootstrap@2.0.0-rc.0
++ popper.js@1.12.9
++ zone.js@0.8.19
++ @angular/compiler@5.1.2
++ @angular/platform-browser@5.1.2
++ @angular/common@5.1.2
++ rxjs@5.5.6
++ typescript@2.6.2
++ @angular/forms@5.1.2
++ @angular/core@5.1.2
+updated 12 packages in 10.873s
